@@ -7,3 +7,4 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+# 這是資料模型
