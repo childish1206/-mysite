@@ -4,3 +4,5 @@ from .models import Post
 def home(request):
     posts = Post.objects.all()
     return render(request, 'blog/index.html', {'posts': posts})
+
+#這是練習用的註解
